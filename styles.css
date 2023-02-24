@@ -1,0 +1,113 @@
+body {
+    font-family: 'Georgia', serif;
+}
+
+hr {
+    color: green
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h4 {
+    margin-top: 0px;
+    font-weight: 300;
+    color: dimgray;
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+li {
+    margin: 2px;
+}
+
+/* Style the em elements */
+em {
+    font-style: italic;
+}
+
+/* Style the a elements */
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.flex-container-exp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.flex-items-exp {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    margin: 10px;
+    border: 8px outset #1BA437;
+    -webkit-box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.54);
+    box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.54);
+    padding: 10px;
+}
+
+.flex-container-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.flex-items-skills {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    margin: 10px;
+    border: 8px outset #1BA437;
+    -webkit-box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.54);
+    box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.54);
+}
+
+#contact-links {
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #5B5B5B;
+    font-weight: 400;
+}
+
+#education {
+    border: 8px outset #1BA437;
+    -webkit-box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.54);
+    box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.54);
+    margin: 10px;
+    padding: 10px;
+}
+
+#header {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#projects {
+    border: 8px outset #1BA437;
+    -webkit-box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.54);
+    box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, 0.54);
+    margin: 10px;
+    padding: 10px;
+}
